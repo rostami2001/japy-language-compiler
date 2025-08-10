@@ -38,13 +38,16 @@ end
 ## Build & Execution
 
 1. **Prerequisites:**
+   
    java -version  # Requires Java 11+
    antlr4         # Requires ANTLR 4.9.3
 
 2. **Generate parser:**
+   
    antlr4 japy.g4 -o src/gen
 
 3. **Compile and run:**
+   
    javac src/compiler/*.java src/gen/*.java
    java -cp . src.compiler.Compiler samples/test.txt
 
@@ -52,6 +55,7 @@ end
 ## Sample Output
 
 **Sample Output**
+
   <class 'Sample'>
     <function 'main', parameters: []>
     ...
@@ -60,6 +64,7 @@ end
 
 
 **Symbol table output:**
+
   --- program:"samples/test.txt" ---
   key = class_Sample, value = {kind='class', name='Sample'}
   key = method_main, value = {kind='method', name='main', type='double'}
