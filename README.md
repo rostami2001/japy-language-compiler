@@ -40,15 +40,17 @@ end
 1. **Prerequisites:**
    
    java -version  # Requires Java 11+
+   
    antlr4         # Requires ANTLR 4.9.3
 
-2. **Generate parser:**
+3. **Generate parser:**
    
    antlr4 japy.g4 -o src/gen
 
-3. **Compile and run:**
+4. **Compile and run:**
    
    javac src/compiler/*.java src/gen/*.java
+   
    java -cp . src.compiler.Compiler samples/test.txt
 
 
