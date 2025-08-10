@@ -56,21 +56,21 @@ end
 
 ## Sample Output
 
-**Sample Output**
-
-  <class 'Sample'>
+Syntax tree visualization:
+```
+<class 'Sample'>
     <function 'main', parameters: []>
     ...
     </function return (double)>
-  </class>
+</class>
+```
 
-
-**Symbol table output:**
-
-  --- program:"samples/test.txt" ---
-  key = class_Sample, value = {kind='class', name='Sample'}
-  key = method_main, value = {kind='method', name='main', type='double'}
-
+Symbol table output:
+```
+--- program:"samples/test.txt" ---
+key = class_Sample, value = {kind='class', name='Sample'}
+key = method_main, value = {kind='method', name='main', type='double'}
+```
 
 ## Key Components
 
