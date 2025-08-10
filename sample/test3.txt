@@ -1,0 +1,25 @@
+private class A begin
+    public field string new_var
+    public field string new_var
+end
+
+MAIN class B inherits A begin
+    public func main () returns bool begin
+        new_var = "Hello"
+        if (world) begin
+            var i = 10
+            sout(new_war)
+        end
+        return 10
+    end
+
+  public func main () returns string begin
+        new_var = "Hello"
+        if (world) begin
+            var i = 10
+            sout(new_war)
+        end
+    end
+
+
+end
